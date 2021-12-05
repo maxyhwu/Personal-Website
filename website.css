@@ -1,0 +1,50 @@
+header{
+ display: flex;
+ justify-content: space-between;
+}
+
+.logo{
+  align-self: flex-end;
+  font-size: 32px;
+}
+
+nav{
+ display: flex;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*font-size: 32px;*/
+}
+
+#info{
+  margin: 2% 10%;
+}
+
+.title{
+  font-family: 'Helvetica', sans-serif;
+  /*font-family: 'Exo', sans-serif;
+  /*font-family: 'Baloo Bhaijaan 2', cursive;*/
+  font-size: 40pt;
+  /*font-weight: bold;*/
+  text-align: center;
+  border-width: 5pxs;
+  border-color: indigo;
+  border-style: groove;
+  border-radius: 20px;
+}
+
+.aboutme{
+
+}
+.aboutme .item{
+    margin: 2%;
+  }
+
+.copyright{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: bold;
+  text-align: center;
+}
