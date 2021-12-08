@@ -13,7 +13,9 @@ nav{
  display: flex;
  align-self: center;
 }
-
+nav :hover{
+  top: -8px;
+}
 
 .menu{
   display: flex;
@@ -25,19 +27,12 @@ nav{
   margin: 2%;
   text-decoration: none;
   padding: 8px;
-}
-
-.menu :hover{
-   top: -8px;
-
+  position: relative;
 }
 
 .menu .icon{
   align-self: center;
-  position: relative;
 }
-
-
 
 .menu .text{
   text-decoration-line: none;
@@ -47,6 +42,7 @@ nav{
 
 #info{
   margin: 2% 10%;
+
 }
 
 .title{
@@ -67,8 +63,17 @@ nav{
 .aboutme{
 
 }
+.aboutme .infotitle{
+  font-size: 2em;
+  font-weight:bold;
+  border-bottom: solid 3px indigo; /* 自訂的顏色 */
+  padding: 0.1em 0;
+}
 .aboutme .item{
-    margin: 2%;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  margin: 2%;
+  font-size: 20px;
+  line-height: 2;
   }
 
 .posts{
