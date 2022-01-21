@@ -2,7 +2,9 @@ header{
  display: flex;
  justify-content: space-between;
  margin-left: 2%;
- margin-right: 2%;
+ margin-right: 5%;
+ margin-bottom: 5%;
+ margin-top: 2%;
 }
 
 .logo{
@@ -60,24 +62,54 @@ nav :hover{
   color: black;
 }
 
-.aboutme{
+.homepart{
 
 }
-.aboutme .infotitle{
+.homepart .infotitle{
+  font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 2em;
   font-weight:bold;
   border-bottom: solid 3px indigo; /* 自訂的顏色 */
   padding: 0.1em 0;
 }
-.aboutme .item{
+.homepart .infosubtitle{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 24px;
+  font-weight:bold;
+  padding: 0.1em 0;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.homepart .item{
   font-family: 'Baloo Bhaijaan 2', cursive;
   margin: 2%;
+  margin-top: 0;
   font-size: 20px;
   line-height: 2;
   }
+.homepart .item .name{
+  font-size: 24px;
+  display: inline-block;
+  margin: 0.5%;
+}
+.homepart .item .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  border-color: indigo;
+  border-style: solid;
+  display: inline-block;
+  margin: 0.5%;
+}
 
 .posts{
 
+}
+
+@keyframes expandbar{
+    0% {width: 0;}
+    100% {width: 100%;}
 }
 
 footer{
