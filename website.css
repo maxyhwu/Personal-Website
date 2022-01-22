@@ -68,14 +68,14 @@ nav :hover{
 .homepart .infotitle{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 2em;
-  font-weight:bold;
+  /*font-weight:bold;*/
   border-bottom: solid 3px indigo; /* 自訂的顏色 */
   padding: 0.1em 0;
 }
 .homepart .infosubtitle{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 24px;
-  font-weight:bold;
+  /*font-weight:bold;*/
   padding: 0.1em 0;
   margin-top: 2%;
   margin-left: 2%;
@@ -88,9 +88,10 @@ nav :hover{
   line-height: 2;
   }
 .homepart .item .name{
-  font-size: 24px;
+  font-size: 25px;
   display: inline-block;
   margin: 0.5%;
+  height: 25px;
 }
 .homepart .item .dot {
   height: 25px;
@@ -101,6 +102,23 @@ nav :hover{
   border-style: solid;
   display: inline-block;
   margin: 0.5%;
+  line-height: 25px;
+  text-align: center;
+}
+.homepart .personalexperience{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  margin: 2%;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.homepart .personalexperience .name{
+  line-height: 1;
+}
+.homepart .personalexperience .org{
+  font-size: 14px;
+  color: gray;
+  line-height: 1;
+  margin-bottom: 5px;
 }
 
 .posts{
