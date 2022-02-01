@@ -1,14 +1,17 @@
 header{
- display: flex;
- justify-content: space-between;
- margin-left: 2%;
- margin-right: 5%;
- margin-bottom: 5%;
- margin-top: 2%;
-}
-
-.logo{
-  /*align-self: center;*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  background-color: white;
+  border-bottom: solid thin indigo;
 }
 
 nav{
@@ -69,7 +72,7 @@ nav :hover{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 2em;
   /*font-weight:bold;*/
-  border-bottom: solid 3px indigo; /* 自訂的顏色 */
+  border-bottom: solid 3px indigo;
   padding: 0.1em 0;
 }
 .homepart .infosubtitle{
@@ -128,29 +131,39 @@ footer{
   bottom: 0;
   text-align: center;
 }
-
-logo{
-
+.logos{
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  align-item: center;
 }
-logo :hover{
-  top: -8px;
-}
 
-.contact{
+.logo{
+  border-radius: 20%;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 100%;
-  border-color: indigo;
-  border-style: solid;
-  margin: 2%;
   text-decoration: none;
   padding: 8px;
   position: relative;
 }
+.icon-mail:hover{fill:#e34c41}
+.icon-github:hover{fill:#464646}
+.icon-twitter:hover{fill:#1bb2e9}
+.icon-youtube:hover{fill:#cc181e}
+.icon-facebook:hover{fill:#3c599b}
+.icon-linkedin:hover{fill:#2447e2}
+.icon-instagram:hover{fill:#bc2a8d}
+
+.contact{
+
+}
 
 .contact .icon{
   align-self: center;
+  color: blue;
 }
 
 .copyright{
