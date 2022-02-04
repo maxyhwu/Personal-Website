@@ -163,11 +163,14 @@ nav :hover{
   height: 270px;
   z-index:1;
   justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .project .tooltiptext {
+  line-height:1.5;
   visibility: hidden;
-  width: 90%;
+  width: 85%;
   height:90%;
   background-color: rgba(255,255,255,0.85);
   color: black;
