@@ -348,7 +348,23 @@ nav :hover{
 
 }
 
+.cv{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(0, 47, 255, 0.5);
+  border-width: medium;
+  text-decoration: none;
+  background-color: rgba(0, 47, 255, 0.1);
+}
+.cv:hover .cv-text{
+  color:rgba(0, 47, 255, 0.75);
+  background-color: white;
 
+}
+
+.cv:visited{
+  color: black;
+}
 
 footer{
   position: relative;

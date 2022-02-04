@@ -7,6 +7,7 @@
   <meta name="author" content="Max Wu">
   <meta name="description" content="This is Max's personal website. Feel free to look around and reach out!">
   <link href="website.css" rel="stylesheet">
+  <link href="loader.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -14,183 +15,199 @@
   <script src="https://kit.fontawesome.com/5c8814dbff.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-
-  <header>
-    <div class="title">
-      <a href="./index.html" style="text-decoration: none; color: black;">
-        <div class="title-wrapper">
-          <img src="./img/icon/maxyhwu-2.png" class="title-img">
-          <span>Max's Personal Website &nbsp;</span>
-        </div>
-      </a>
-    </div>
-    <nav style="margin-right: 5%;">
-      <a class="menu" href="./index.html"
-        style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/home.svg"></div>
-        <div class="text">Home</div>
-      </a>
-      <a class="menu" href="./about.html" style="text-decoration: none; color: black;background-color: rgb(238, 238, 238);">
-        <div class="icon"><img src="./img/icon/news.svg"></div>
-        <div class="text">About</div>
-      </a>
-      <a class="menu" href="./project.html" style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/project.svg"></div>
-        <div class="text">Projects</div>
-      </a>
-      <a class="menu" href="./contact.html" style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/news.svg"></div>
-        <div class="text">Contact</div>
-      </a>
-    </nav>
-  </header>
-
-  <div id="info">
-    <div class="homepart">
-      <div class="infotitle">Related Courses</div>
-      <div class="infosubtitle">Experienced</div>
-      <ul class="item">
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 1003] Programming Design</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 1010] Data Structures and Advanced Program Design</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 2009] Algorithms</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 2013] Programming Languages: Imperative Program Construction</li>
-        <li>[IM 1009] IM Freshman Project</li>
-        <li>[MATH 4006] Calculus (1)</li>
-        <li>[MATH 4007] Calculus (2)</li>
-        <li>[MATH 4008] Calculus (3)</li>
-        <li>[MATH 4009] Calculus (4)</li>
-        <li>[IM 1004] Management Mathematics (Linear Algebra)</li>
-        <li>[MGT 2001] Statistics (I)(1)</li>
-      </ul>
-      <hr style="margin-left: 5%; margin-right: 5%;">
-      <div class="infosubtitle">Expected (2022 Spring)</div>
-      <ul class="item">
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 2003] Operating Systems</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 2010] Operations Research</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[IM 2012] Programming Languages: Functional Programming</li>
-        <li style="color: rgba(0, 47, 255, 0.766);">[EE 5184] Machine Learning</li>
-        <li>[MGT 2002] Statistics (I)(2)</li>
-      </ul>
-
-    </div>
-    <div class="homepart">
-      <div class="infotitle">Languages</div>
-      <ul class="item">
-        <li>
-          <div class="name">C++</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9679;&#9679;</span>
-        </li>
-        <li>
-          <div class="name">Python</div>
-          <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
-          <div class="explain">Familiar with Matplotlib and Pandas.</div>
-        </li>
-        <li>
-          <div class="name">Html</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
-        </li>
-        <li>
-          <div class="name">CSS</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
-        </li>
-        <li>
-          <div class="name">JavaScript</div>
-          <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
-          <div class="explain">A React and NodeJS learner.</div>
-        </li>
-        <li>
-          <div class="name">TypeScript</span>
-          <span class="level">&#9679;&#9679;&#9675;&#9675;&#9675;</span>
-        </li>
-        <hr style="margin-right: 5%;">
-        <li>
-          <div class="name">Mandarin</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9679;&#9679;</span>
-        <li>
-          <div class="name">English</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9679;&#9675;</span>
-        </li>
-        <li>
-          <div class="name">Japanese</span>
-          <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
-        </li>
-        <li>
-          <div class="name">Spanish</span>
-          <span class="level">&#9679;&#9675;&#9675;&#9675;&#9675;</span>
-        </li>
-      </ul>
-    </div>
-    <div class="homepart">
-      <div class="infotitle">Personal Experiences</div>
-      <ul class="personalexperience">
-        <li>
-          <div>Front-End Developer of NTUSA Project</div>
-          <div class="org">Information Department, National Taiwan University Student Association</div>
-          <div class="org">2022.01-</div>
-        </li>
-        <li>
-          <div>Minister of Problems Department, PDAO2022</div>
-          <div class="org">Programming Design and Optimization Competition, NTUIM</div>
-          <div class="org">2022.01-</div>
-        </li>
-        <li>
-          <div>President of 2022 NTU Azalea Festival, NTUIM</div>
-          <div class="org">Department of Information Management, National Taiwan University</div>
-          <div class="org">2021.12-</div>
-        </li>
-        <li>
-          <div>Member of Students' Welfare Department, NTUSA</div>
-          <div class="org">National Taiwan University Student Association</div>
-          <div class="org">2021.09-</div>
-        </li>
-        <li>
-          <div class="name">Minister of Activities Department, IMSA</div>
-          <div class="org">Student Association of Information Management Department, National Taiwan University</div>
-          <div class="org">2021.08-</div>
-        </li>
-        <li>
-          <div>President of 2021 NTUIM Freshmen Welcome Camp</div>
-          <div class="org">Department of Information Management, National Taiwan University</div>
-          <div class="org">2021.02-2021.10</div>
-        </li>
-        <li>
-          <div>Flute Principal/ Wind Band Concertmaster, CKO</div>
-          <div class="org">Taipei Municipal Chien Kuo High School Orchestra</div>
-          <div class="org">2018.07-2019.06</div>
-        </li>
-      </ul>
-    </div>
-    <div class="homepart">
-      <div class="infotitle">Internships</div>
-      <p class="item" style="margin-top: 2%;">...Not yet started!(Seeking for opportunities!)</p>
-    </div>
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader">
+    <img src="./img/icon/maxyhwu-4.png" class="loader-img">
+    <p class="loader-greetings">Loading...</p>
   </div>
+  <div id="myDiv">
+    <header>
+      <div class="title">
+        <a href="./index.html" style="text-decoration: none; color: black;">
+          <div class="title-wrapper">
+            <img src="./img/icon/maxyhwu-2.png" class="title-img">
+            <span>Max's Personal Website &nbsp;</span>
+          </div>
+        </a>
+      </div>
+      <nav style="margin-right: 5%;">
+        <a class="menu" href="./index.html"
+          style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/home.svg"></div>
+          <div class="text">Home</div>
+        </a>
+        <a class="menu" href="./about.html" style="text-decoration: none; color: black;background-color: rgb(238, 238, 238);">
+          <div class="icon"><img src="./img/icon/news.svg"></div>
+          <div class="text">About</div>
+        </a>
+        <a class="menu" href="./project.html" style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/project.svg"></div>
+          <div class="text">Projects</div>
+        </a>
+        <a class="menu" href="./contact.html" style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/news.svg"></div>
+          <div class="text">Contact</div>
+        </a>
+      </nav>
+    </header>
+    <div id="info">
+      <div class="homepart">
+        <div class="infotitle">Related Courses</div>
+        <div class="infosubtitle">Experienced</div>
+        <ul class="item">
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM1003] Programming Design</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM1010] Data Structures and Advanced Program Design</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM2009] Algorithms</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM2013] Programming Languages: Imperative Program Construction</li>
+          <li>[IM1009] IM Freshman Project</li>
+          <li>[MATH4006] Calculus (1)</li>
+          <li>[MATH4007] Calculus (2)</li>
+          <li>[MATH4008] Calculus (3)</li>
+          <li>[MATH4009] Calculus (4)</li>
+          <li>[IM1004] Management Mathematics (Linear Algebra)</li>
+          <li>[MGT2001] Statistics (I)(1)</li>
+        </ul>
+        <hr style="margin-left: 5%; margin-right: 5%;">
+        <div class="infosubtitle">Expected (2022 Spring)</div>
+        <ul class="item">
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM2003] Operating Systems</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM2010] Operations Research</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[IM2012] Programming Languages: Functional Programming</li>
+          <li style="color: rgba(0, 47, 255, 0.766);">[EE5184] Machine Learning</li>
+          <li>[MGT 2002] Statistics (I)(2)</li>
+        </ul>
 
+      </div>
+      <div class="homepart">
+        <div class="infotitle">Languages</div>
+        <ul class="item">
+          <li>
+            <div class="name">C++</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9679;&#9679;</span>
+          </li>
+          <li>
+            <div class="name">Python</div>
+            <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
+            <div class="explain">Familiar with Matplotlib and Pandas.</div>
+          </li>
+          <li>
+            <div class="name">Html</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
+          </li>
+          <li>
+            <div class="name">CSS</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
+          </li>
+          <li>
+            <div class="name">JavaScript</div>
+            <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
+            <div class="explain">A React and NodeJS learner.</div>
+          </li>
+          <li>
+            <div class="name">TypeScript</span>
+            <span class="level">&#9679;&#9679;&#9675;&#9675;&#9675;</span>
+          </li>
+          <hr style="margin-right: 5%;">
+          <li>
+            <div class="name">Mandarin</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9679;&#9679;</span>
+          <li>
+            <div class="name">English</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9679;&#9675;</span>
+          </li>
+          <li>
+            <div class="name">Japanese</span>
+            <span class="level">&#9679;&#9679;&#9679;&#9675;&#9675;</span>
+          </li>
+          <li>
+            <div class="name">Spanish</span>
+            <span class="level">&#9679;&#9675;&#9675;&#9675;&#9675;</span>
+          </li>
+        </ul>
+      </div>
+      <div class="homepart">
+        <div class="infotitle">Personal Experiences</div>
+        <ul class="personalexperience">
+          <li>
+            <div>Front-End Developer of NTUSA Project</div>
+            <div class="org">Information Department, National Taiwan University Student Association</div>
+            <div class="org">2022.01-</div>
+          </li>
+          <li>
+            <div>Minister of Problems Department, PDAO2022</div>
+            <div class="org">Programming Design and Optimization Competition, NTUIM</div>
+            <div class="org">2022.01-</div>
+          </li>
+          <li>
+            <div>President of 2022 NTU Azalea Festival, NTUIM</div>
+            <div class="org">Department of Information Management, National Taiwan University</div>
+            <div class="org">2021.12-</div>
+          </li>
+          <li>
+            <div>Member of Students' Welfare Department, NTUSA</div>
+            <div class="org">National Taiwan University Student Association</div>
+            <div class="org">2021.09-</div>
+          </li>
+          <li>
+            <div class="name">Minister of Activities Department, IMSA</div>
+            <div class="org">Student Association of Information Management Department, National Taiwan University</div>
+            <div class="org">2021.08-</div>
+          </li>
+          <li>
+            <div>President of 2021 NTUIM Freshmen Welcome Camp</div>
+            <div class="org">Department of Information Management, National Taiwan University</div>
+            <div class="org">2021.02-2021.10</div>
+          </li>
+          <li>
+            <div>Flute Principal/ Wind Band Concertmaster, CKO</div>
+            <div class="org">Taipei Municipal Chien Kuo High School Orchestra</div>
+            <div class="org">2018.07-2019.06</div>
+          </li>
+        </ul>
+      </div>
+      <div class="homepart">
+        <div class="infotitle">Internships</div>
+        <p class="item" style="margin-top: 2%;">...Not yet started!(Seeking for opportunities!)</p>
+      </div>
+    </div>
+    <footer style="margin-top: 5%; background-color: rgba(76, 0, 130, 0.218);">
+      <div class="row logos">
+        <div class="logo icon-github">
+          <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/github.svg"></a>
+        </div>
+        <div class="logo icon-linkedin">
+          <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/linkedin.svg"></a>
+        </div>
+        <div class="logo icon-instagram">
+          <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/instagram.svg"></a>
+        </div>
+        <div class="logo icon-mail">
+          <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/mail.svg"></a>
+        </div>
+      </div>
+      <div class="row">
+        <p class="copyright">
+          &copy;
+          <script>document.write(new Date().getFullYear());</script><a href="https://github.com/maxyhwu" target="_blank"
+            style="text-decoration: none;"> Max Wu.</a> All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 1500);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </div>
 </body>
 
-<footer style="margin-top: 5%; background-color: rgba(76, 0, 130, 0.218);">
-  <div class="row logos">
-    <div class="logo icon-github">
-      <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/github.svg"></a>
-    </div>
-    <div class="logo icon-linkedin">
-      <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/linkedin.svg"></a>
-    </div>
-    <div class="logo icon-instagram">
-      <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/instagram.svg"></a>
-    </div>
-    <div class="logo icon-mail">
-      <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/mail.svg"></a>
-    </div>
-  </div>
-  <div class="row">
-    <p class="copyright">
-      &copy;
-      <script>document.write(new Date().getFullYear());</script><a href="https://github.com/maxyhwu" target="_blank"
-        style="text-decoration: none;"> Max Wu.</a> All rights reserved.
-    </p>
-  </div>
-</footer>
+
 
 </html>

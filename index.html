@@ -7,58 +7,60 @@
   <meta name="author" content="Max Wu">
   <meta name="description" content="This is Max's personal website. Feel free to look around and reach out!">
   <link href="website.css" rel="stylesheet">
+  <link href="loader.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/5c8814dbff.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-
-  <header>
-    <div class="title">
-      <a href="./index.html" style="text-decoration: none; color: black;">
-        <div class="title-wrapper">
-          <img src="./img/icon/maxyhwu-2.png" class="title-img">
-          <span>Max's Personal Website &nbsp;</span>
-        </div>
-      </a>
-    </div>
-    <nav style="margin-right: 5%;">
-      <a class="menu" href="./index.html"
-        style="text-decoration: none; color: black;background-color: rgb(238, 238, 238);">
-        <div class="icon"><img src="./img/icon/home.svg"></div>
-        <div class="text">Home</div>
-      </a>
-      <a class="menu" href="./about.html" style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/news.svg"></div>
-        <div class="text">About</div>
-      </a>
-      <a class="menu" href="./project.html" style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/project.svg"></div>
-        <div class="text">Projects</div>
-      </a>
-      <a class="menu" href="./contact.html" style="text-decoration: none; color: black;">
-        <div class="icon"><img src="./img/icon/news.svg"></div>
-        <div class="text">Contact</div>
-      </a>
-    </nav>
-  </header>
-
-  <div id="info">
-    <div class="homepart" style="border-style: solid; border-radius: 2%; border-color:indigo; border-width: thin;">
-      <p class="item" style="margin-top: 2%;">Hi, I'm <span style="font-size:larger;color: rgba(0, 47, 255, 0.766); font-family: 'Baloo Bhaijaan 2', cursive;">Max</span>! I'm currently a sophomore majoring in <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807); "> Information Management</span> at <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">National Taiwan University</span>. Moreover, I expect to apply a double major in <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Information Management</span> and <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Law</span> in Fall semester this year.</p>
-      <p class="item"> I'm a huge fan of <span style="font-size: 22px; color: rgba(0, 47, 255, 0.766);">Los Angeles Dodgers</span> and also a baseball lover. I love playing baseball, softball and badminton, and I'm in the department-wide teams of these sports. </p>
-      <p class="item">Beside doing outdoor activities, I love playing piano and flute in leisure time. I also love listening to classical music, and my most favorite piece is <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Sergei Rachmaninoff: Piano Concerto No.3 in d minor</span>.</p>
-      <p class="item">To know more about me, feel free to look around! Also, always welcome to <a href="mailto:b09705045@ntu.im" style="color: rgba(0, 47, 255, 0.766);text-decoration-style:dashed; text-underline-offset: 4px;">contact me</a>!<br>Wish you have a nice day ;)
-      </p>
-    </div>
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader">
+    <img src="./img/icon/maxyhwu-3.png" class="loader-img">
+    <p class="loader-greetings">HI! Welcome to my space :)</p>
   </div>
-
-</body>
-
-<footer style="margin-top: 5%; background-color: rgba(76, 0, 130, 0.218);">
+  <div id="myDiv">
+    <header>
+      <div class="title">
+        <a href="./index.html" style="text-decoration: none; color: black;">
+          <div class="title-wrapper">
+            <img class="title-img" src="./img/icon/maxyhwu-2.png" >
+            <span>Max's Personal Website &nbsp;</span>
+          </div>
+        </a>
+      </div>
+      <nav style="margin-right: 5%;">
+        <a class="menu" href="./index.html"
+          style="text-decoration: none; color: black;background-color: rgb(238, 238, 238);">
+          <div class="icon"><img src="./img/icon/home.svg"></div>
+          <div class="text">Home</div>
+        </a>
+        <a class="menu" href="./about.html" style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/news.svg"></div>
+          <div class="text">About</div>
+        </a>
+        <a class="menu" href="./project.html" style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/project.svg"></div>
+          <div class="text">Projects</div>
+        </a>
+        <a class="menu" href="./contact.html" style="text-decoration: none; color: black;">
+          <div class="icon"><img src="./img/icon/news.svg"></div>
+          <div class="text">Contact</div>
+        </a>
+      </nav>
+    </header>
+    <div id="info">
+      <div class="homepart" style="border-style: solid; border-radius: 2%; border-color:indigo; border-width: thin;">
+        <p class="item" style="margin-top: 2%;">Hi, I'm <span style="font-size:x-large; color: rgba(0, 47, 255, 0.766); font-family: 'Baloo Bhaijaan 2', cursive;">Max</span>! I'm currently a sophomore majoring in <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807); "> Information Management</span> at <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">National Taiwan University</span>. Moreover, I expect to apply a double major in <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Information Management</span> and <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Law</span> in Fall semester this year.</p>
+        <p class="item"> I'm a huge fan of <span style="font-size: 22px; color: rgba(0, 47, 255, 0.766);">Los Angeles Dodgers</span> and also a baseball lover. I love playing baseball, softball and badminton, and I'm in the department-wide teams of these sports. </p>
+        <p class="item">Beside doing outdoor activities, I love playing piano and flute in leisure time. I also love listening to classical music, and my most favorite piece is <span style="font-size: 22px; color: rgba(187, 53, 53, 0.807);">Sergei Rachmaninoff: Piano Concerto No.3 in d minor</span>.</p>
+        <p class="item">To know more about me, feel free to look around! Also, always welcome to <a href="mailto:b09705045@ntu.im" style="color: rgba(0, 47, 255, 0.766);text-decoration-style:dashed; text-underline-offset: 4px;">contact me</a> or <a class="cv" href="./docs/YU_HSUAN_WU_Resume_protected.pdf" target="blank"><span class="cv-text">download my CV</span></a>!<br>Wish you have a nice day ;)
+        </p>
+      </div>
+    </div>
+    <footer style="margin-top: 5%; background-color: rgba(76, 0, 130, 0.218);">
   <div class="row logos">
     <div class="logo icon-github">
       <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/github.svg"></a>
@@ -67,7 +69,9 @@
       <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/linkedin.svg"></a>
     </div>
     <div class="logo icon-instagram">
-      <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/instagram.svg"></a>
+      <a href="https://github.com/maxyhwu" target="_blank">
+        <img src="./img/icon/instagram.svg">
+      </a>
     </div>
     <div class="logo icon-mail">
       <a href="https://github.com/maxyhwu" target="_blank"><img src="./img/icon/mail.svg"></a>
@@ -80,6 +84,20 @@
         style="text-decoration: none;"> Max Wu.</a> All rights reserved.
     </p>
   </div>
-</footer>
+    </footer>
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+  </div>
+</body>
 
 </html>
